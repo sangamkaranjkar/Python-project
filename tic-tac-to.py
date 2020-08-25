@@ -29,7 +29,6 @@ def check_win(board, x_o):
     return play
 
 import random
-board = [" "] * 9
 available_spaces = [0,1,2,3,4,5,6,7,8]
 draw_board(board)
 play = True
